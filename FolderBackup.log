@@ -1,0 +1,153 @@
+**********************
+PowerShell transcript start
+Start time: 20221210064554
+Username: WIN-DESK-2022\s0911
+RunAs User: WIN-DESK-2022\s0911
+Configuration Name: 
+Machine: WIN-DESK-2022 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 36380
+PSVersion: 7.3.0
+PSEdition: Core
+GitCommitId: 7.3.0
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is FolderBackup.log
+### Source Path ###
+ C:\Users\s0911\AppData\Roaming\Executor
+### Destination Path ###
+ D:\BACKUP\Executor\\20221210_064554
+### Delete Base Date ###
+ 20221110
+PS>TerminatingError(Get-Item): "A positional parameter cannot be found that accepts argument '+'."
+
+Get-Item: D:\DEV\pub_PowerShell\FolderBackup.ps1:53
+Line |
+  53 |  $folders = Get-Item $dst_base_dir + "\*"
+     |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | A positional parameter cannot be found that accepts argument '+'.
+
+Get-Item: D:\DEV\pub_PowerShell\FolderBackup.ps1:53
+Line |
+  53 |  $folders = Get-Item $dst_base_dir + "\*"
+     |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | A positional parameter cannot be found that accepts argument '+'.
+
+**********************
+PowerShell transcript end
+End time: 20221210064554
+**********************
+**********************
+PowerShell transcript start
+Start time: 20221210064745
+Username: WIN-DESK-2022\s0911
+RunAs User: WIN-DESK-2022\s0911
+Configuration Name: 
+Machine: WIN-DESK-2022 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 36380
+PSVersion: 7.3.0
+PSEdition: Core
+GitCommitId: 7.3.0
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is FolderBackup.log
+### Source Path ###
+ C:\Users\s0911\AppData\Roaming\Executor
+### Destination Path ###
+ D:\BACKUP\Executor\\20221210_064745
+### Delete Base Date ###
+ 20221110
+**********************
+PowerShell transcript end
+End time: 20221210064745
+**********************
+**********************
+PowerShell transcript start
+Start time: 20221210065810
+Username: WIN-DESK-2022\s0911
+RunAs User: WIN-DESK-2022\s0911
+Configuration Name: 
+Machine: WIN-DESK-2022 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 36380
+PSVersion: 7.3.0
+PSEdition: Core
+GitCommitId: 7.3.0
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is FolderBackup.log
+### Source Path ###
+ D:\DEV\pub_PowerShell\
+
+    Directory: D:\BACKUP
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2022/12/10     6:58                pub_PowerShell
+### Destination Path ###
+ D:\BACKUP\pub_PowerShell\\20221210_065810
+
+Remove-Item: D:\DEV\pub_PowerShell\FolderBackup.ps1:43
+Line |
+  43 |      Remove-Item $dst_dir -Recurse
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot find path 'D:\BACKUP\pub_PowerShell\20221210_065810' because it does not exist.
+
+Remove-Item: D:\DEV\pub_PowerShell\FolderBackup.ps1:43
+Line |
+  43 |      Remove-Item $dst_dir -Recurse
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot find path 'D:\BACKUP\pub_PowerShell\20221210_065810' because it does not exist.
+
+### Delete Base Date ###
+ 20221110
+**********************
+PowerShell transcript end
+End time: 20221210065810
+**********************
+**********************
+PowerShell transcript start
+Start time: 20221210070010
+Username: WIN-DESK-2022\s0911
+RunAs User: WIN-DESK-2022\s0911
+Configuration Name: 
+Machine: WIN-DESK-2022 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 36380
+PSVersion: 7.3.0
+PSEdition: Core
+GitCommitId: 7.3.0
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is FolderBackup.log
+### Source Path ###
+ D:\DEV\pub_PowerShell\
+### Destination Path ###
+ D:\BACKUP\pub_PowerShell\\20221210_070010
+### Delete Base Date ###
+ 20221110
+**********************
+PowerShell transcript end
+End time: 20221210070010
+**********************
